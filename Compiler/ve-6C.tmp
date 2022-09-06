@@ -1,0 +1,13 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Compiler
+{
+    public class SymbolTable
+    {
+        private Char[] Name;
+        private Token Token;
+        private int offset;
+    }
+}
